@@ -9,7 +9,7 @@
 class Pessoa{
     public $Codigo;
     public $Nome;
-    public $Altura
+    public $Altura;
     public $AnoNascimento;
     public $Salario;
 
@@ -30,7 +30,7 @@ class Pessoa{
     */
 
     function __destruct(){
-        echo "<small>O Objeto Sálario{$this->Salario} foi destruido</small><br />";
+        echo "<small>O Objeto Salário{$this->Salario} foi destruido</small><br />";
     }
 
     /* Método Crescer()

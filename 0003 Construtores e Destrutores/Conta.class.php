@@ -59,7 +59,7 @@ class Conta{
      */
 
     function Depositar($quantia){
-        if($quantia ->  ){
+        if($quantia > 0 ){
             $this->Saldo += $quantia;
         }
     }
